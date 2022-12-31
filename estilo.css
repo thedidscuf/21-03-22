@@ -1,0 +1,89 @@
+body {
+  background-color: #FBEFEF; /* color rosa claro */
+  background-size: cover;
+  background-position: center;
+  font-family: "Comic Sans MS", sans-serif; /* Fuente */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#casa-voladora {
+  width: 200px;
+  border: 4px solid #F7D8CC; /* color naranja claro */
+  border-radius: 5%;
+}
+
+h1 {
+  color: #c99c8a; /* color naranja claro */
+  margin: 20px 0;
+  font-family: "Comic Sans MS", sans-serif; /* Fuente */
+}
+
+p {
+  color: #5D5D5D; /* color gris oscuro */
+  margin: 20px 0;
+}
+
+@media (min-width: 768px) {
+  #casa-voladora {
+    width: 300px;
+  }
+}
+
+.imagen-zoom {
+  /* Estilos de la imagen */
+  transition: transform 0.5s; /* Añadir una transición suave al zoom */
+}
+
+.imagen-zoom:hover {
+  transform: scale(1.2); /* Hacer zoom al 120% */
+}
+h1, p {
+  /* Estilos para ambos elementos */
+  margin: 0; /* Quitar margen */
+  padding: 0; /* Quitar espacio alrededor */
+}
+
+h1, p {
+  /* Estilos para ambos elementos */
+  margin: 0; /* Quitar margen */
+  padding: 0; /* Quitar espacio alrededor */
+}
+
+h1 {
+  /* Estilos para el elemento h1 */
+  margin-bottom: 10px; /* Margen inferior */
+}
+
+p {
+  /* Estilos para el elemento p */
+  margin-top: 10px; /* Margen superior */
+  color: #c99c8a;
+}
+
+a {
+  /* Estilos del botón */
+  display: inline-block; /* Mostrar como bloque en línea */
+  background-color: #FFCE44; /* Color de fondo */
+  color: #8B0000; /* Color del texto */
+  padding: 10px 20px; /* Espacio alrededor del texto */
+  border-radius: 5px; /* Bordes redondeados */
+  text-decoration: none; /* Quitar subrayado */
+  font-weight: bold; /* Negrita */
+  font-family: "Comic Sans MS", sans-serif; /* Fuente */
+  margin-top: 20px; /* Margen superior */
+}
+
+a:hover {
+  /* Estilos al pasar el cursor por encima del botón */
+  background-color: #FFA07A; /* Color de fondo */
+}
+
+h3 {
+  color: #c99c8a; /* color naranja claro */
+  margin: 20px 0;
+  font-family: "Comic Sans MS", sans-serif; /* Fuente */
+
+}

@@ -1,0 +1,42 @@
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: #FFCE44;
+    color: #5E5E5E;
+  }
+  
+  header {
+    background-color: #FFCE44;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav a {
+    display: inline-block;
+    margin: 0 1em;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin: 1em 0;
+    text-align: center;
+  }
+
+  video {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
